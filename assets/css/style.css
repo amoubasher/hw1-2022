@@ -75,66 +75,10 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
+/* "digital-marketing was moved above "benefits" because "digital-marketing" comes before
+"benefits" in the HTML */
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+.digital-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,7 +87,11 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+
+/* This code was laborsome and not needed in order to get the wanted effect.
+So they were combined also. */
+
+/* .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -159,26 +107,31 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.search-engine-optimization img {
+.digital-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/* There was no need to make 3 different classes for a max-height. They were
+combined into one. */
+/* .online-reputation-management img {
     max-height: 200px;
 }
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+.digital-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/* The website needed all these headings to have the same margin-bottom
+and font-size. So I combined them into one class instead of having 3 different ones
+do the same thing. */
+/* .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -186,7 +139,73 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+} */
+
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
 }
+
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* These css elements were redundant and not needed for the end product.
+They were combined in the benefit class */
+
+/* .benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+} */
+
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* These css elements were redundant and not needed for the end product.
+They were combined in the benefit class */
+/* .benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+} */
+
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* These css elements were also not needed. They were combined */
+/* .benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+} */
 
 .footer {
     padding: 30px;
@@ -195,6 +214,8 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+
+/* Footer heading was changed to h4, my tutor said this is better as its a smaller heading */
+.footer h4 {
     font-size: 20px;
 }
