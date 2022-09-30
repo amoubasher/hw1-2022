@@ -9,4 +9,4 @@ I also went through the CSS and refactored some of the existing code in order to
 
 Comments were added into the HTML as well as the CSS so any coder that works on this code after me will know what was changed and will be able to revert to the original if needed.
 
-![image](https://user-images.githubusercontent.com/68880379/193192157-1eb50089-7a1e-4c11-9a71-b1cf37051074.png)
+![image](https://user-images.githubusercontent.com/68880379/193192223-e444ad18-0d58-4eec-b636-a17c75d1707b.png)
